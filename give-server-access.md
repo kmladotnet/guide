@@ -53,3 +53,9 @@ passwd: password updated successfully
 * 새로 추가할 Sudoer의 아이디를 입력하고, 위에 있는 사람들과 동일하게 나머지 값들을 입력
 * 저장 및 종료
 * 사용자 변경은 `su - username`로 할 수 있음.
+
+## 또 하면 좋은 것
+* GitHub KMLA Dotnet 팀에 추가해주기
+* Linode에 새로운 멤버 가입시켜주기
+    * 새로운 멤버가 회원가입을 직접 하는 것이 아님
+    * [https://cloud.linode.com/account/users](https://cloud.linode.com/account/users)에서 기존 멤버가 직접 Add a User 눌러서 해줘야함
