@@ -5,7 +5,7 @@
 * 이때 포트는 `220`번을 사용합니다. 아래에서 `cho`를 여러분의 `username`으로 바꾸세요.
 
 ```zsh
-➜ ~ ssh cho@kmlaonlinet.net -p 220
+➜ ~ ssh cho@kmlaonline.net -p 220
 ```
 > ⚠️ 보안 설정 때문에 The authenticity of host can't be established.라는 메시지가 나올 때가 있는데 수정 바람
 
