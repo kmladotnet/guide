@@ -1,17 +1,17 @@
 # 새로운 관리자에게 서버 `Sudo` 권한 주기
 
-## Sudo이란?
-
-* 서버에서 Super-do 권한을 가진 사람을 이르는 말
-* 일반적으로 닷넷 외부 인원이 Sudo 권한을 가진 Sudoer가 됨
+## 🛑 정지
+* Sudo 권한은 말 그대로 **모든 것을** 할 수 있는 권한
+* 즉 키워드 하나 잘못 입력하는 순간 서버가 **터질 수 있음**
+* 그러니 항상
+    1) 중요한 정보의 백업을 해두고
+    2) 테스트 서버에서 미리 안전을 확인할 것.
+* 또한 다음 삼원칙을 명심할 것
 
 ```zsh
-We trust you have received the usual lecture from the local System
-Administrator. It usually boils down to these three things:
-
-    #1) Respect the privacy of others.
-    #2) Think before you type.
-    #3) With great power comes great responsibility.
+#1) Respect the privacy of others.
+#2) Think before you type.
+#3) With great power comes great responsibility.
 ```
 
 ## 새로운 서버 유저 추가
