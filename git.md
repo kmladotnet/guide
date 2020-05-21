@@ -1,4 +1,4 @@
-git 기본적인 commit 과 push 는 알거라 생각합니다
+git 기본적인 commit, pull, push 는 알거라 생각합니다
 
 
 
