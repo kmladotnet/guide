@@ -5,3 +5,4 @@
 
 ## 추가 자료
 * [서비스 장애 보고서 (191212~191226)](https://github.com/kmladotnet/kmlaonline/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9E%A5%EC%95%A0-%EB%B3%B4%EA%B3%A0%EC%84%9C-(191212~191226))
+* [서비스 장애 보고서 (211209~211210)](https://github.com/kmladotnet/kmlaonline/wiki/%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9E%A5%EC%95%A0-%EB%B3%B4%EA%B3%A0%EC%84%9C-(211209~211210))
