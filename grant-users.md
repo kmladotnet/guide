@@ -1,6 +1,6 @@
 # KMLA Online 가입 승인하기
 
-* [`src/content/user/login.php`의 52번째 줄](https://github.com/kmladotnet/kmlaonline/blob/master/src/content/user/login.php#L52)을 주석 해제하면 회원가입 버튼이 활성화됨
+* `src/content/user/login.php`의 [52번째 줄](https://github.com/kmladotnet/kmlaonline/blob/master/src/content/user/login.php#L52)을 주석 해제하면 회원가입 버튼이 활성화됨
 * FileZilla 등의 `sftp` 클라이언트를 다운로드
 * 다음의 정보를 입력한 후 `Quickconnect`를 누름
 
