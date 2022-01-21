@@ -6,7 +6,7 @@
 
 |Host                 |Username     |Password     |Port|
 |---------------------|-------------|-------------|----|
-|sftp://kmlaonline.net|Your username|Your password|220 |
+|sftp://kmlaonline.net|Your username|Your password|2200 |
 
 * 다음 위치로 접근해서 생성된 신청서 파일 (`txt` 확장자) 의 내용을 리뷰한 후 승인을 결정했다면 파일을 삭제
 
