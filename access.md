@@ -2,12 +2,11 @@
 
 * SSH Client를 실행합니다.
 * SSH Client를 통해 KMLA Online에 접속합니다.
-* 이때 포트는 `220`번을 사용합니다. 아래에서 `cho`를 여러분의 `username`으로 바꾸세요.
+* 이때 포트는 `2200`번을 사용합니다. 
 
 ```zsh
-➜ ~ ssh cho@kmlaonline.net -p 220
+➜ ~ ssh username@kmlaonline.net -p 2200
 ```
-> ⚠️ 보안 설정 때문에 The authenticity of host can't be established.라는 메시지가 나올 때가 있는데 수정 바람
 
 * KMLA Online 서버 코드는 `/srv/http/kmla`에 있습니다.
 * `git pull`을 하면 자동으로 `git pull origin master`가 됩니다.
