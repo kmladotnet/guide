@@ -20,7 +20,7 @@
 * 다음 명령어를 이용해서 새로운 사용자를 추가하고 비밀번호를 설정해줌
 
 ```zsh
-➜ ~ sudo useradd newuser
+➜ ~ sudo useradd -m newuser
 ```
 
 ## 비밀번호 설정 또는 변경
