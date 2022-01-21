@@ -18,9 +18,11 @@
 
 * 기존 Sudoer의 도움을 받아야함
 * 다음 명령어를 이용해서 새로운 사용자를 추가하고 비밀번호를 설정해줌
+* 처음에는 아이디와 동일하게 비밀번호를 설정하고, 새로운 유저는 바로 접속해 비밀번호를 변경해야 함
+* wheel 그룹에 등록하는 것으로 sudo권한을 얻음
 
 ```zsh
-➜ ~ sudo useradd -m newuser
+➜ ~ sudo useradd -G wheel -m newuser -p newuser
 ```
 
 ## 비밀번호 설정 또는 변경
@@ -31,28 +33,6 @@ New password:
 Retype new password: 
 passwd: password updated successfully
 ```
-
-## 새로 추가된 서버 유저에게 Sudo 권한 부여
-
-* 새로 추가된 서버 유저의 이름을 Sudoers File에 추가해야함
-* 기존의 Sudoer 중 한 명이 다음 명령을 통해 Sudoers에 접근
-
-```zsh
-➜ ~ sudo visudo
-```
-
-* `vi`를 통해서 Sudoers 파일이 열린 것 (기초적인 vi 사용법을 알아야 함)
-* 아래로 내리다 보면 다음과 같은 구역을 발견할 수 있음
-
-```zsh
-##
-## User privilege specification
-##
-```
-
-* 새로 추가할 Sudoer의 아이디를 입력하고, 위에 있는 사람들과 동일하게 나머지 값들을 입력
-* 저장 및 종료
-* 사용자 변경은 `su - username`로 할 수 있음.
 
 ## 또 하면 좋은 것
 * GitHub KMLA Dotnet 팀에 추가해주기
