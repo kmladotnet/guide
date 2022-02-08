@@ -8,7 +8,7 @@
     2) 테스트 서버에서 미리 안전을 확인할 것.
 * 또한 다음 삼원칙을 명심할 것
 
-```zsh
+```bash
 #1) Respect the privacy of others.
 #2) Think before you type.
 #3) With great power comes great responsibility.
@@ -21,14 +21,14 @@
 * 처음에는 아이디와 동일하게 비밀번호를 설정하고, 새로운 유저는 바로 접속해 비밀번호를 변경해야 함
 * wheel 그룹에 등록하는 것으로 sudo권한을 얻음
 
-```zsh
-➜ ~ sudo useradd -G wheel -m newuser -p newuser
+```bash
+$ sudo useradd -G wheel -m newuser -p newuser
 ```
 
 ## 비밀번호 설정 또는 변경
 
-```zsh
-➜ ~ sudo passwd newuser
+```bash
+$ sudo passwd newuser
 New password: 
 Retype new password: 
 passwd: password updated successfully
