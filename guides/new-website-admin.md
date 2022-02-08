@@ -12,7 +12,7 @@
 기본 유저는 DB에서 n_admin값이 0으로 시작합니다. 이 값이 1이 되면 관리자 권한을 사용할 수 있습니다. 
 
 ```bash
-> mysql kmlaonline -u kmlaonline -p
+$ mysql kmlaonline -u kmlaonline -p
 Enter password: <mariadb-password>
 
 MariaDB [kmlaonline]> update kmlaonline_member_data set n_admin=1 where n_id=<user-id>;
