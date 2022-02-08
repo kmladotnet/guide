@@ -1,10 +1,23 @@
-# 문서
+# General
 
-* [일반적인 KMLA Online 서버 접근](access.md)
-* [급식이 안 나오는 경우: 급식 수동 업데이트](food.md)
-* [신입생 가입 승인](grant-users.md)
-* [갑자기 KMLA Online 접속이 안 되는 경우: DNS 갱신](renew-dns.md)
-* [새로운 닷넷 멤버에게 서버 권한 주기](give-server-access.md)
+* [사용자 가입 승인](/guides/allow-signin.md)
+* [게시판 권한 수정](/guides/change-board-access.md)
+
+# Troubleshooting
+
+* [급식이 안 나오는 경우: 급식 수동 업데이트](/guides/food-update.md)
+* [KMLA Online 접속이 안 되는 경우: DNS 갱신](/guides/renew-dns.md)
+
+# DotNet Member
+
+* [KMLA Online 서버 접속하기](/guides/connect-server.md)
+* [새로운 닷넷 멤버: sudoer 권한 주기](/guides/new-sudoer.md)
+* [새로운 닷넷 멤버: 웹사이트 관리자 권한 주기](/guides/new-website-admin.md)
+
+# Knowledge Base
+
+* [Git 사용하기](/guides/git.md)
+* [파일 권한 수정하기](/guides/chmod.md)
 
 ## 서버 정보
 

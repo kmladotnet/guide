@@ -1,0 +1,1 @@
+파일 권한 [링크](https://conory.com/blog/19194)
