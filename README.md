@@ -2,6 +2,7 @@
 
 * [사용자 가입 승인](/guides/allow-signin.md)
 * [게시판 권한 수정](/guides/change-board-access.md)
+* [기부물품 관련 업무](/guides/donation.md)
 
 # Troubleshooting
 
