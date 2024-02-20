@@ -8,5 +8,5 @@
 
 ## 기부물품 신청 날짜 변경
 
-* kmlaonline Repository 에서 kmlaonline/src/content/util/donation-book.php 의 line 113, line 117의 날짜를 변경. 
+* kmlaonline Repository 에서 kmlaonline/src/content/util/donation-book.php 의 line 113, line 177의 날짜를 변경. 
 * kmlaonline Repository 에서 kmlaonline/src/content/util/donation-cloth.php 의 line 100의 날짜를 변경.
