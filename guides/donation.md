@@ -4,7 +4,8 @@
 
 * 원격서버에 ssh로 접속, /scripts/donation 에서 sample.xlsx 를 다운로드.-> scp 이용 (* 참고: https://codereader37.tistory.com/143)
 * sample.xlsx 를 행정위에 전달후 정리된 최종본을 donations.xlsx로 동일한 dir에 업로드.
-* insert.py 실행
+* insert_v2.py 실행 (만약 에러가 난다면 대신 insert.py 실행)
+
 
 ## 기부물품 신청 날짜 변경
 
